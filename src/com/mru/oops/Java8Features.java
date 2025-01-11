@@ -34,6 +34,10 @@ public class Java8Features {
 		list3.add("Hello");
 		list3.add("Welcome");
 		list3.add("DSA");
+		list3.stream().map((name)->{
+			return new StringBuilder(name).reverse().toString();
+		}).forEach(System.out::println);
+		
 		
 		//olleH
 		//Welcome
