@@ -15,8 +15,5 @@ public class oops3 {
 		
 		Child222 obj2  = new Child222();
 		System.out.println(obj2.num1 + obj2.num2);
-		
-
 	}
-
 }
