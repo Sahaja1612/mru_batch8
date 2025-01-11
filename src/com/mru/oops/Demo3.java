@@ -13,7 +13,6 @@ public class Demo3 {
 		System.out.println(result2);
 		obj2.m2();
 		
-
 	}
 }
 
